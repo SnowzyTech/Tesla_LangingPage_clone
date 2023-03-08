@@ -59,6 +59,10 @@ const Container = styled.div`
       left: 0;
       right: 0;
       z-index: 1;
+
+      @media (max-width: 330px) {
+        margin-top: 10px;
+      }
 `
 
 const Menu = styled.div`
@@ -87,7 +91,12 @@ const RightMenu = styled.div`
       font-weight: 600;
       text-transform: uppercase;
       margin-right: 10px;
+
+     
     }
+    @media (max-width: 362px) {
+        a{ display: none; }
+      }
 `
 
 const CustomMenu = styled(MenuIcon)`

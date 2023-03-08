@@ -53,6 +53,11 @@ const ItemText = styled.div`
      padding-top: 15vh;
      text-align: center;
      z-index: -1;
+     @media (max-width: 300px) {
+      p {
+        font-size: 14px;
+      }
+     }
      
 `
 
